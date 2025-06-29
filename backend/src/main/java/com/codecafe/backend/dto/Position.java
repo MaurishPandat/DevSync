@@ -1,4 +1,4 @@
-package com.codecafe.backend.dto;
+package com.devsync.backend.dto;
 
 // DTO matching the structure in frontend/src/hooks/useCollaborationSession.ts
 public class Position {

@@ -1,7 +1,7 @@
-package com.codecafe.backend.service;
+package com.devsync.backend.service;
 
-import com.codecafe.backend.dto.UserInfoDTO;
-import com.codecafe.backend.dto.SelectionInfo;
+import com.devsync.backend.dto.UserInfoDTO;
+import com.devsync.backend.dto.SelectionInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.HashOperations;
 import org.springframework.data.redis.core.RedisTemplate;

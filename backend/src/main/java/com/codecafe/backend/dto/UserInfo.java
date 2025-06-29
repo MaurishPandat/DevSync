@@ -1,4 +1,4 @@
-package com.codecafe.backend.dto;
+package com.devsync.backend.dto;
 
 // DTO matching the nested userInfo structure in frontend's CursorMessage
 // Note: This is separate from UserInfoDTO which is used for *storing* in Redis

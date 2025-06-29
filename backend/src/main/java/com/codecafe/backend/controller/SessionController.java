@@ -1,7 +1,7 @@
-package com.codecafe.backend.controller;
+package com.devsync.backend.controller;
 
-import com.codecafe.backend.dto.DocumentContentPayload;
-import com.codecafe.backend.service.OtService;
+import com.devsync.backend.dto.DocumentContentPayload;
+import com.devsync.backend.service.OtService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

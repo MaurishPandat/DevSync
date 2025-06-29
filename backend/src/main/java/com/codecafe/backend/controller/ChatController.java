@@ -1,6 +1,6 @@
-package com.codecafe.backend.controller;
+package com.devsync.backend.controller;
 
-import com.codecafe.backend.dto.ChatMessage;
+import com.devsync.backend.dto.ChatMessage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

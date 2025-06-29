@@ -1,4 +1,4 @@
-package com.codecafe.backend.dto;
+package com.devsync.backend.dto;
 
 // DTO representing a single selection range
 public class RangeInfo {

@@ -1,7 +1,7 @@
-package com.codecafe.backend.service;
+package com.devsync.backend.service;
 
-import com.codecafe.backend.dto.TextOperation;
-import com.codecafe.backend.util.OtUtils;
+import com.devsync.backend.dto.TextOperation;
+import com.devsync.backend.util.OtUtils;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

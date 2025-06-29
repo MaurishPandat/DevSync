@@ -1,6 +1,6 @@
-package com.codecafe.backend.controller;
+package com.devsync.backend.controller;
 
-import com.codecafe.backend.dto.CodeExecutionRequest;
+import com.devsync.backend.dto.CodeExecutionRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;

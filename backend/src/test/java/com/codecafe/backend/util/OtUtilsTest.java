@@ -1,6 +1,6 @@
-package com.codecafe.backend.util;
+package com.devsync.backend.util;
 
-import com.codecafe.backend.dto.TextOperation; // Use your actual DTO
+import com.devsync.backend.dto.TextOperation; // Use your actual DTO
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;
 

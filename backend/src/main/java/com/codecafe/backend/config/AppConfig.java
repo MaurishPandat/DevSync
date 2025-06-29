@@ -1,4 +1,4 @@
-package com.codecafe.backend.config;
+package com.devsync.backend.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

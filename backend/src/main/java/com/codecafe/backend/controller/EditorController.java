@@ -1,14 +1,14 @@
-package com.codecafe.backend.controller;
+package com.devsync.backend.controller;
 
-import com.codecafe.backend.dto.UserInfo;
-import com.codecafe.backend.dto.UserInfoDTO;
-import com.codecafe.backend.dto.CursorMessage;
-import com.codecafe.backend.dto.Position;
-import com.codecafe.backend.dto.DocumentState;
-import com.codecafe.backend.service.SessionRegistryService;
-import com.codecafe.backend.service.OtService;
-import com.codecafe.backend.dto.JoinPayload;
-import com.codecafe.backend.dto.SelectionInfo;
+import com.devsync.backend.dto.UserInfo;
+import com.devsync.backend.dto.UserInfoDTO;
+import com.devsync.backend.dto.CursorMessage;
+import com.devsync.backend.dto.Position;
+import com.devsync.backend.dto.DocumentState;
+import com.devsync.backend.service.SessionRegistryService;
+import com.devsync.backend.service.OtService;
+import com.devsync.backend.dto.JoinPayload;
+import com.devsync.backend.dto.SelectionInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

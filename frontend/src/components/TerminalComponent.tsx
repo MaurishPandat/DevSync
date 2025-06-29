@@ -70,7 +70,7 @@ const TerminalComponent = forwardRef<TerminalHandle, TerminalComponentProps>(
               term.write(
                 `${ANSI_COLORS.OUTPUT_COLOR}${new Date().toLocaleString()}\r\n`
               );
-            } else if (command === "codecafe") {
+            } else if (command === "devsync") {
               term.write("\r\n");
               term.write(
                 `${ANSI_COLORS.OUTPUT_COLOR}   ______            __       ______        ____    \r\n`

@@ -1,9 +1,9 @@
-package com.codecafe.backend.listener;
+package com.devsync.backend.listener;
 
-import com.codecafe.backend.dto.DocumentState;
-import com.codecafe.backend.dto.UserInfoDTO;
-import com.codecafe.backend.service.OtService;
-import com.codecafe.backend.service.SessionRegistryService;
+import com.devsync.backend.dto.DocumentState;
+import com.devsync.backend.dto.UserInfoDTO;
+import com.devsync.backend.service.OtService;
+import com.devsync.backend.service.SessionRegistryService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

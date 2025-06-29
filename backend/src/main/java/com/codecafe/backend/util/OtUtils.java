@@ -1,6 +1,6 @@
-package com.codecafe.backend.util;
+package com.devsync.backend.util;
 
-import com.codecafe.backend.dto.TextOperation;
+import com.devsync.backend.dto.TextOperation;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.codecafe.backend.controller;
+package com.devsync.backend.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;

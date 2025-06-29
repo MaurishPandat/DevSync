@@ -1,4 +1,4 @@
-package com.codecafe.backend.dto;
+package com.devsync.backend.dto;
 
 // DTO matching the top-level structure sent to /app/selection
 public class CursorMessage {

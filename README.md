@@ -1,13 +1,13 @@
-# CodeCafé: Code Together, Instantly.
+# DevSync: Code Together, Instantly.
 
-![Build](https://img.shields.io/github/actions/workflow/status/mrktsm/codecafe/ci.yml?branch=main&label=build&style=for-the-badge&logo=github)
-![GitHub stars](https://img.shields.io/github/stars/mrktsm/codecafe?style=for-the-badge&logo=github&cacheSeconds=60)
+![Build](https://img.shields.io/github/actions/workflow/status/mrktsm/devsync/ci.yml?branch=main&label=build&style=for-the-badge&logo=github)
+![GitHub stars](https://img.shields.io/github/stars/mrktsm/devsync?style=for-the-badge&logo=github&cacheSeconds=60)
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=for-the-badge)
-![MIT License](https://img.shields.io/github/license/mrktsm/codecafe?style=for-the-badge&label=license)
+![MIT License](https://img.shields.io/github/license/mrktsm/devsync?style=for-the-badge&label=license)
 
-A hyper-collaborative, real-time development environment right in your browser. CodeCafé makes pair programming, teaching, and building web projects together as fluid and instant as sharing a thought.
+A hyper-collaborative, real-time development environment right in your browser. DevSync makes pair programming, teaching, and building web projects together as fluid and instant as sharing a thought.
 
-[Try CodeCafé Live!](https://codecafe.app/)
+[Try DevSync Live!](https://devsync.app/)
 
 <!--
 ![image](https://github.com/user-attachments/assets/68590a84-a055-4876-8c66-8f446f83c038)
@@ -18,9 +18,9 @@ A hyper-collaborative, real-time development environment right in your browser. 
 
 [Click here to watch the demo video!](https://youtu.be/FL0qg1Uo-MQ?si=czYlT2vyO6qMIyL1)
 
-## Why CodeCafé?
+## Why DevSync?
 
-We saw coding classes juggling tools built for essays, not engineers. Existing solutions felt clunky for the dynamic nature of real-time programming. CodeCafé was born from the need for a seamless, browser-based coding space designed from the ground up for _true_ collaboration. Learn, teach, and build—together, instantly.
+We saw coding classes juggling tools built for essays, not engineers. Existing solutions felt clunky for the dynamic nature of real-time programming. DevSync was born from the need for a seamless, browser-based coding space designed from the ground up for _true_ collaboration. Learn, teach, and build—together, instantly.
 
 ## Core Features
 
@@ -39,7 +39,7 @@ We saw coding classes juggling tools built for essays, not engineers. Existing s
 
 ## Real-Time Collaboration with Operational Transformation
 
-At the heart of CodeCafé's seamless collaborative editing is our custom-built Operational Transformation (OT) system, implemented on both the frontend and backend.
+At the heart of DevSync's seamless collaborative editing is our custom-built Operational Transformation (OT) system, implemented on both the frontend and backend.
 
 ### What is Operational Transformation?
 
@@ -62,12 +62,12 @@ This enables truly fluid, Google Docs-like collaboration where everyone can type
 
 ### Option 1: Using Docker (Recommended)
 
-The easiest way to get started with CodeCafé is to use Docker:
+The easiest way to get started with DevSync is to use Docker:
 
 ```bash
 # Clone the repo
-git clone https://github.com/mrktsm/codecafe.git
-cd codecafe
+git clone https://github.com/mrktsm/devsync.git
+cd devsync
 
 # Start all services using Docker Compose
 docker-compose up
@@ -83,8 +83,8 @@ Access the app in your browser at http://localhost:80
 
 ```bash
 # Clone the repo
-git clone https://github.com/mrktsm/codecafe.git
-cd codecafe
+git clone https://github.com/mrktsm/devsync.git
+cd devsync
 
 # Start Redis (keep this running in a separate terminal or as a background service)
 redis-server &
@@ -110,7 +110,7 @@ Access the app in your browser at the URL shown in terminal (typically http://lo
 
 ## CI/CD Pipeline
 
-CodeCafé uses GitHub Actions for continuous integration and deployment:
+DevSync uses GitHub Actions for continuous integration and deployment:
 
 - **CI Pipeline:** Automatically runs tests for both frontend and backend on every pull request and push to main/develop branches.
 - **CD Pipeline:** Automatically deploys:
@@ -141,7 +141,7 @@ CodeCafé uses GitHub Actions for continuous integration and deployment:
 
 ## License
 
-CodeCafé is open-sourced under the [MIT License](https://opensource.org/licenses/MIT).
+DevSync is open-sourced under the [MIT License](https://opensource.org/licenses/MIT).
 
 ---
 

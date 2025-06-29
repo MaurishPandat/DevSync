@@ -1,10 +1,10 @@
-package com.codecafe.backend.controller;
+package com.devsync.backend.controller;
 
-import com.codecafe.backend.dto.DocumentState;
-import com.codecafe.backend.dto.IncomingOperationPayload;
-import com.codecafe.backend.dto.TextOperation;
-import com.codecafe.backend.service.OtService;
-import com.codecafe.backend.dto.IncomingSelectionPayload;
+import com.devsync.backend.dto.DocumentState;
+import com.devsync.backend.dto.IncomingOperationPayload;
+import com.devsync.backend.dto.TextOperation;
+import com.devsync.backend.service.OtService;
+import com.devsync.backend.dto.IncomingSelectionPayload;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.messaging.simp.SimpMessageHeaderAccessor;
@@ -16,8 +16,8 @@ import java.util.logging.Logger;
 import java.security.Principal;
 import java.util.List;
 import java.util.Collections;
-import com.codecafe.backend.dto.UserInfoDTO;
-import com.codecafe.backend.service.SessionRegistryService;
+import com.devsync.backend.dto.UserInfoDTO;
+import com.devsync.backend.service.SessionRegistryService;
 
 @Controller
 public class OtController {

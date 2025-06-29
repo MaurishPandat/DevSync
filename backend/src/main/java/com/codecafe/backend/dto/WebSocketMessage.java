@@ -1,4 +1,4 @@
-package com.codecafe.backend.dto;
+package com.devsync.backend.dto;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.io.Serializable;
 
